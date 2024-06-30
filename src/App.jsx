@@ -16,7 +16,7 @@ export default function App() {
       <div className='flex flex-col min-h-[100dvh] bg-[#1a1a1a] text-white'>
         <Nav />
         <main className='flex-1'>
-          <section className='xl:padding-1 wide:padding-r padding-b'>
+          <section>
             <Hero />
           </section>
           <section>

@@ -4,7 +4,7 @@ import editable from "../assets/images/editable.webp";
 const Hero = () => {
   return (
     <section className="w-full pt-12 md:pt-24 lg:pt-32 bg-gradient-to-br from-[#1a1a1a] to-[#2b2b2b]">
-      <div className="container px-4 py-4 md:px-6 space-y-10 xl:space-y-16">
+      <div className="container m-auto px-4 py-4 md:px-6 space-y-10 xl:space-y-16">
         <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16">
           <div>
             <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem] text-[#9370DB]">
