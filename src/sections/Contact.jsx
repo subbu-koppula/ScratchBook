@@ -2,12 +2,6 @@ import React from "react";
 
 const Contact = () => {
   return (
-    // <section
-    //   id="contact"
-    //   className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-[#1a1a1a] to-[#2b2b2b]"
-    // >
-    //   <h1 className=''>Get in touch</h1>
-    // </section>
     <section
       id="contact"
       className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-[#1a1a1a] to-[#2b2b2b]"
@@ -25,14 +19,25 @@ const Contact = () => {
           </div>
           <div className="mx-auto w-full max-w-sm space-y-2">
             <form className="flex flex-col gap-4">
-              <input type="text" placeholder="Name" className="bg-black input-field rounded-lg" />
-              <input type="email" placeholder="Email" className="bg-black rounded-lg input-field" />
+              <input
+                type="text"
+                placeholder="Name"
+                className="bg-black input-field rounded-lg"
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                className="bg-black rounded-lg input-field"
+              />
               <textarea
                 placeholder="Message"
                 rows="4"
                 className="textarea-field bg-black rounded-lg"
               />
-              <button type="submit" className="inline-flex h-10 items-center justify-center rounded-md bg-[#9370DB] px-8 text-sm font-medium text-[#1a1a1a] shadow transition-colors hover:bg-[#8257d6] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 ">
+              <button
+                type="submit"
+                className="inline-flex h-10 items-center justify-center rounded-md bg-[#9370DB] px-8 text-sm font-medium text-[#1a1a1a] shadow transition-colors hover:bg-[#8257d6] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 "
+              >
                 Submit
               </button>
             </form>

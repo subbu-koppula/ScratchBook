@@ -1,8 +1,8 @@
-import { useState } from 'react'
+import { useState } from "react";
 
-import {Hero, Mentorship, PublishedBooks, Skills, Contact} from './sections'
-import './App.css'
-import Nav from './components/Nav';
+import { Hero, Mentorship, PublishedBooks, Skills, Contact } from "./sections";
+import "./App.css";
+import Nav from "./components/Nav";
 
 export default function App() {
   return (
@@ -13,9 +13,9 @@ export default function App() {
       skills
       published books
       contact */}
-      <div className='flex flex-col min-h-[100dvh] bg-[#1a1a1a] text-white'>
+      <div className="flex flex-col min-h-[100dvh] bg-[#1a1a1a] text-white">
         <Nav />
-        <main className='flex-1'>
+        <main className="flex-1">
           <section>
             <Hero />
           </section>
@@ -34,5 +34,5 @@ export default function App() {
         </main>
       </div>
     </>
-  )
+  );
 }
