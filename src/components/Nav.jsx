@@ -6,7 +6,7 @@ import { hamburger } from '../assets/icons'
 const Nav = () => {
   return (
     <header className="px-4 lg:px-6 h-14 flex items-center bg-[#1a1a1a]/80 backdrop-blur-md shadow-sm z-10">
-        <a className="flex items-center justify-center" href='/'>
+        <a className="flex items-center justify-center" href='#home'>
                 <img
                     src={SBlogo}
                     className="h-8 w-8 mr-2"
