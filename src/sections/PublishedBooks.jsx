@@ -34,7 +34,7 @@ const PublishedBooks = () => {
               The Whispers of the Forest
             </h3>
             <p className="text-sm text-[#b3b3b3]">
-              A captivating tale of a young woman's journey through the
+              A captivating tale of a young man's journey through the
               enchanted woods.
             </p>
           </div>
